@@ -181,12 +181,12 @@
 
             //15Exercise
 
-            Console.WriteLine(" Enter three-digit number:");
+            Console.Write(" Enter three-digit number:");
             var number = int.Parse(Console.ReadLine());
 
             var numberFinally = 0;
 
-            var r1, r2, r3;
+            var r1 = 0; var r2 = 0; var r3 = 0;
 
             for (var i = 100; i <= 999; i++)
             {
