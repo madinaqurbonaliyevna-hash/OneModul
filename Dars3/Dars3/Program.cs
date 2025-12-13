@@ -200,6 +200,9 @@
                 if (numberFinally > 20)
                 {
                     Console.WriteLine($"{numberFinally},");
+                    Console.WriteLine($"{numberFinally},");
+                    Console.WriteLine($"{numberFinally},");
+
                 }
             }
 

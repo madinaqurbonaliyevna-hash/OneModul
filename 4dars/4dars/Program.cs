@@ -2,23 +2,28 @@
 
 internal class Program
 {
-    static void Main(string[] args)
+    //1Exercise
+    static string result(int str)
     {
-        string text = "Foundation";
-        string firstText = "davay";
 
-        var res1 = text.Substring(7, 3);
-        var res2 = firstText.Substring(2, 3);
+        Console.Write("list lengthni kiriting: ");
 
-        Console.WriteLine(res1);
-        Console.WriteLine(res2);
+        var n = int.Parse(Console.ReadLine());
 
 
-        var res1 = textOne.Substring(string.length -3);
-        var res2 = firstTwo.Substring(2,1);
+        List<int> ints = new List<int>();
 
-        Console.WriteLine(res1);
-        Console.WriteLine(res2);
+        for (var i = 0; i < n; i++)
+        {
+            Console.Write("List lengthni:");
+            var num = int .Parse(Console.ReadLine());
+            ints.Add(num);
+        }
 
+
+        static void Main(string[] args)
+        {
+            EnumerableExecutor
+
+        }
     }
-}
